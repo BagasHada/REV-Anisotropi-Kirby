@@ -1,0 +1,64 @@
+{
+  "sample": "Kirby",
+  "shape_voxel": [
+    256,
+    256,
+    256
+  ],
+  "voxel_size_um": 2.25,
+  "domain_side_um": 576.0,
+  "porosity_definitions": "P3: 6-connected components without periodic face joining",
+  "porosity_by_axis": [
+    {
+      "axis": "x",
+      "phi_total": 0.20528411865234375,
+      "phi_effective": 0.20352154970169067,
+      "phi_flow": 0.2033262848854065,
+      "phi_dead_end": 0.0001952648162841797,
+      "phi_isolated": 0.0017625689506530762,
+      "n_components": 391
+    },
+    {
+      "axis": "y",
+      "phi_total": 0.20528411865234375,
+      "phi_effective": 0.2039426565170288,
+      "phi_flow": 0.2033262848854065,
+      "phi_dead_end": 0.0006163716316223145,
+      "phi_isolated": 0.0013414621353149414,
+      "n_components": 391
+    },
+    {
+      "axis": "z",
+      "phi_total": 0.20528411865234375,
+      "phi_effective": 0.20365077257156372,
+      "phi_flow": 0.2033262848854065,
+      "phi_dead_end": 0.00032448768615722656,
+      "phi_isolated": 0.0016333460807800293,
+      "n_components": 391
+    }
+  ],
+  "course_csv_reference": [
+    {
+      "axis": "x",
+      "phi_total": 0.205284,
+      "phi_connected_reference": 0.203326,
+      "K_mD": 636.3142,
+      "converged": "1"
+    },
+    {
+      "axis": "y",
+      "phi_total": 0.205284,
+      "phi_connected_reference": 0.203326,
+      "K_mD": 621.6607,
+      "converged": "1"
+    },
+    {
+      "axis": "z",
+      "phi_total": 0.205284,
+      "phi_connected_reference": 0.203326,
+      "K_mD": 594.9657,
+      "converged": "1"
+    }
+  ],
+  "note": "Untuk domain acuan, phi_flow mengikuti definisi P3. Saat LBM subvolume, penyaringan pori tembus menggunakan kondisi periodik P11; kedua takrif dibedakan."
+}

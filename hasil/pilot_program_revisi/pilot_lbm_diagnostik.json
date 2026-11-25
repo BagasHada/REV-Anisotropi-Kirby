@@ -1,0 +1,33 @@
+{
+  "sample": "Kirby",
+  "L_voxel": 32,
+  "L_um": 72,
+  "replicate": 0,
+  "start_xyz": [
+    48,
+    163,
+    141
+  ],
+  "axis": "x",
+  "solver": "D3Q19-TRT, Guo forcing, half-way bounce-back, periodic domain",
+  "steps": 35000,
+  "temporal_residual": 9.830037861179221e-08,
+  "temporal_residual_passed": true,
+  "k_lattice": 0.0005035534341099475,
+  "k_mD": 2.5830173784394628,
+  "mach": 5.072827681085075e-06,
+  "reynolds_pore": 6.104992820564559e-07,
+  "tau_u": 1.6178711922702964,
+  "mass_error": 1.8247625632739073e-12,
+  "slice_flux_cv": 0.953345807291706,
+  "slice_flux_cv_limit": 0.001,
+  "slice_flux_check_passed": false,
+  "joint_convergence_passed": false,
+  "interpretation": "Uji diagnostik awal. Residual temporal kecil belum cukup; fluks antaririsan belum seragam sehingga nilai k ini tidak dipakai pada statistik REV atau anisotropi.",
+  "axis_y_same_subvolume": {
+    "through": false,
+    "k_mD": 0.0,
+    "interpretation": "Tidak ada jalur pori tembus; dicatat sebagai hasil ketersambungan yang sah."
+  },
+  "note": "Data ini dihitung pada eksekusi pilot sebelum syarat penghentian solver diperketat. Pada kode terbaru, solver mensyaratkan residual temporal <1e-7 dan Cv fluks irisan <1e-3 secara bersamaan."
+}

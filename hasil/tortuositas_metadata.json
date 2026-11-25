@@ -1,0 +1,13 @@
+{
+  "method": "Dijkstra shortest path, 6 face-neighbours; periodic transverse axes; no periodicity along flow axis",
+  "sample": "Kirby",
+  "sample_size_voxel": 128,
+  "seed": 20261226,
+  "subvolume_start_xyz": [
+    27,
+    93,
+    81
+  ],
+  "voxel_size_um": 2.25,
+  "note": "Geometric tortuosity for one largest-tested subvolume; not flow-weighted tortuosity."
+}

@@ -1,0 +1,35 @@
+{
+  "sample": "Kirby",
+  "seed": 20261125,
+  "n_geometry_per_size": 30,
+  "sizes_voxel": [
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "sizes_um": [
+    72.0,
+    108.0,
+    144.0,
+    216.0,
+    288.0
+  ],
+  "full_image_porosity": 0.20528411865234375,
+  "slope_logCv_logL": {
+    "porosity": -1.767592155307854,
+    "specific_surface_corrected_m_inv": -1.703343941784076
+  },
+  "REV": {
+    "porosity": {
+      "L_voxel": 128,
+      "L_um": 288.0
+    },
+    "specific_surface": {
+      "L_voxel": 128,
+      "L_um": 288.0
+    }
+  },
+  "surface_reference": "Bulk volume; voxel-face count including crop-boundary interfaces via parent-image halo; 2/3 staircase bias correction"
+}

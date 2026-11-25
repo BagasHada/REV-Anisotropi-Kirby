@@ -1,0 +1,31 @@
+{
+  "method": "P2 granulometry: EDT(pore); seeds=(EDT>=r); accessible=(EDT(~seeds)<=r); local linear interpolation at 50% accessible pore volume",
+  "sample": "Kirby",
+  "voxel_size_um": 2.25,
+  "porosity_total": 0.20528411865234375,
+  "r50_voxel": 4.820678388439677,
+  "r50_um": 10.846526373989272,
+  "estimated_controlling_throat_diameter_um": 21.693052747978545,
+  "estimated_controlling_throat_diameter_voxel": 9.641356776879354,
+  "resolution_ratio_d_t_over_dx": 9.641356776879354,
+  "decision": "layak_dan_baik",
+  "radius_points": [
+    {
+      "radius_voxel": 4.0,
+      "radius_um": 9.0,
+      "accessible_pore_fraction": 0.7054695920206637
+    },
+    {
+      "radius_voxel": 4.5,
+      "radius_um": 10.125,
+      "accessible_pore_fraction": 0.5372170229865835
+    },
+    {
+      "radius_voxel": 5.0,
+      "radius_um": 11.25,
+      "accessible_pore_fraction": 0.4791884430631434
+    }
+  ],
+  "runtime_seconds": 13.565583944320679,
+  "caveat": "Indikator granulometri dari citra biner, bukan pengukuran langsung tiap leher pori. Artefak grayscale tidak dapat dinilai dari citra biner."
+}

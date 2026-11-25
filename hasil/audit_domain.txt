@@ -1,0 +1,16 @@
+Ukuran citra: (256, 256, 256); porositas total: 0.20528412
+Porositas P3 (tanpa periodisitas):
+  x: phi_eff=0.20352155; phi_flow=0.20332628; phi_buntu=0.00019526; phi_isolasi=0.00176257
+  y: phi_eff=0.20394266; phi_flow=0.20332628; phi_buntu=0.00061637; phi_isolasi=0.00134146
+  z: phi_eff=0.20365077; phi_flow=0.20332628; phi_buntu=0.00032449; phi_isolasi=0.00163335
+Porositas P11 (syarat periodik untuk domain LBM):
+  x: phi_periodic_through=0.20383769; n=3419829
+  y: phi_periodic_through=0.20383769; n=3419829
+  z: phi_periodic_through=0.20383769; n=3419829
+Diagnostik tumpang tindih:
+ L_voxel  n_pairs  mean_pairwise_overlap_fraction  median_pairwise_overlap_fraction
+      32      435                        0.003600                          0.000000
+      48      435                        0.010170                          0.000000
+      64      435                        0.028948                          0.000000
+      96      435                        0.129904                          0.058984
+     128      435                        0.335549                          0.323547
